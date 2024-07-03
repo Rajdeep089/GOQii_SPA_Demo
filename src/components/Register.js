@@ -31,7 +31,7 @@ function Register() {
             id="username"
             value={username}
             onChange={(e) => setUsername(e.target.value)}
-            className="w-full px-3 py-2 border rounded-md"
+            className="w-full px-3 py-2 border rounded-md text-black"
             required
           />
         </div>
@@ -42,7 +42,7 @@ function Register() {
             id="password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
-            className="w-full px-3 py-2 border rounded-md"
+            className="w-full px-3 py-2 border rounded-md text-black"
             required
           />
         </div>
